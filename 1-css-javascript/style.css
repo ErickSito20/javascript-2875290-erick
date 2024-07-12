@@ -17,7 +17,7 @@ body{
     position: absolute;
     right: 200px;
     bottom: 50px;
-    animation: sol 5s linear infinite;
+    /*animation: sol 5s linear infinite;*/
     z-index: 0;
 }
 .nube{
@@ -35,7 +35,7 @@ body{
     position: absolute;
     bottom: 320px;
     right: 200px;
-    animation: uno 4s linear infinite;
+    /*animation: uno 4s linear infinite;*/
 
 
 }
@@ -45,7 +45,7 @@ body{
     position: absolute;
     bottom: 320px;
     right: 80px;
-    animation: dos 5s linear infinite;
+    /*animation: dos 5s linear infinite;*/
 
 }
 .tres{
@@ -54,7 +54,7 @@ body{
     position: absolute;
     bottom: 320px;
     right: 500px;
-    animation: tres 5s linear infinite;
+    /*animation: tres 5s linear infinite;*/
 
 
 }
@@ -64,7 +64,7 @@ body{
     position: absolute;
     bottom: 320px;
     right: 600px;
-    animation: cuatro 5s linear infinite;
+    /*animation: cuatro 5s linear infinite;*/
 
 
 }
