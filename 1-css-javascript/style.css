@@ -5,7 +5,7 @@ body{
     margin: 250px auto;
     width: 700px;
     height: 400px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(149, 230, 255);
     position: relative;
     overflow: hidden;
 }
@@ -23,32 +23,27 @@ body{
 .nube{
     width: 100px;
     height: 50px;
-    border-radius: 20px;
-    background-color: rgb(141, 141, 141);
     position: absolute;
-    bottom: 250px;
+    bottom: 300px;
     right: -1;
     z-index: 1;
 }
 .uno{
     width: 100px;
     height: 50px;
-    border-radius: 20px;
-    background-color: rgb(141, 141, 141);
+
     position: absolute;
-    bottom: 250px;
+    bottom: 320px;
     right: 200px;
-    animation: uno 5s linear infinite;
+    animation: uno 4s linear infinite;
 
 
 }
 .dos{
     width: 100px;
     height: 50px;
-    border-radius: 20px;
-    background-color: rgb(141, 141, 141);
     position: absolute;
-    bottom: 250px;
+    bottom: 320px;
     right: 80px;
     animation: dos 5s linear infinite;
 
@@ -56,22 +51,18 @@ body{
 .tres{
     width: 100px;
     height: 50px;
-    border-radius: 20px;
-    background-color: rgb(141, 141, 141);
     position: absolute;
-    bottom: 250px;
-        right: 500px;
-        animation: tres 5s linear infinite;
+    bottom: 320px;
+    right: 500px;
+    animation: tres 5s linear infinite;
 
 
 }
 .cuatro{
     width: 100px;
     height: 50px;
-    border-radius: 20px;
-    background-color: rgb(141, 141, 141);
     position: absolute;
-    bottom: 250px;
+    bottom: 320px;
     right: 600px;
     animation: cuatro 5s linear infinite;
 
@@ -95,11 +86,11 @@ body{
     30% {
         
    background: rgb(205, 156, 23); 
-   
+   bottom: 280px;
     }
     100%{
         background: rgb(203, 135, 9);
-        bottom: 500px;
+        bottom: 480px;
     }
 }
 
@@ -112,18 +103,6 @@ body{
     }
     100%{
         right: 600px;
-    }
-}
-
-@keyframes dos {
-    from{
-        
-    }
-    50%{
-        right: 80px;
-    }
-    100%{
-        right: 500px;
     }
 }
 @keyframes tres {
@@ -148,3 +127,16 @@ body{
         right: 200px;
     }
 }
+@keyframes dos {
+    from{
+        
+    }
+    50%{
+        right: 80px;
+    }
+    100%{
+        right: 500px;
+    }
+}
+
+
