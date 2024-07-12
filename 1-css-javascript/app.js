@@ -1,4 +1,6 @@
 const sol1 = document.querySelector('.sol')
+const guia = document.querySelector('.guia')
+
 const fondo = document.querySelector('.container')
 const nubes = document.querySelector('.nube')
 const nube1 = document.querySelector('.uno')
@@ -9,19 +11,20 @@ const nube4 = document.querySelector('.cuatro')
 
 function moversol(){
     sol1.style.animation= 'sol 5s linear' 
+    sol1.style.backgroundColor='white'
 
 }
 function movernubes(){
-    nube1.style.animation= 'uno 5s linear' 
-    nube2.style.animation= 'dos 5s linear' 
-    nube3.style.animation= 'tres 5s linear' 
-    nube4.style.animation= 'cuatro 5s linear' 
+    nube1.style.animation= 'uno 3s linear ' 
+    nube2.style.animation= 'dos 3s linear' 
+    nube3.style.animation= 'tres 3s linear' 
+    nube4.style.animation= 'cuatro 3s linear' 
 }
 function Fondo1(){
-    sol1.style.backgroundColor = 'black' 
+    fondo.style.backgroundColor = 'blue' 
 
 }
 
 nubes.addEventListener('click', movernubes)
-sol1.addEventListener('click',moversol)
+guia.addEventListener('click',moversol)
 fondo.addEventListener('click',Fondo1)

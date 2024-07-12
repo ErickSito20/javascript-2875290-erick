@@ -8,6 +8,7 @@ body{
     background-color: rgb(149, 230, 255);
     position: relative;
     overflow: hidden;
+    
 }
 .sol{
     width: 100px;
@@ -19,6 +20,18 @@ body{
     bottom: 50px;
     /*animation: sol 5s linear infinite;*/
     z-index: 0;
+}
+.guia{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 100%;
+    position: absolute;
+    right: 200px;
+    bottom: 50px;
+    /*animation: sol 5s linear infinite;*/
+    z-index: 4;
+    cursor: pointer;
 }
 .nube{
     width: 100px;
