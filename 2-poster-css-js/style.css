@@ -5,13 +5,8 @@
 body{
     background-color: black;
 }
-
-#fondo{
-    
-}
 #poster{
     position: relative;
-    
     margin: 200px auto;
     width: 800px;
     height:600 ;
@@ -28,20 +23,30 @@ body{
 .castillo{
     position: absolute;
     z-index: 1;
+    width: 714px;
+    height: 523px;
 }
 .simbolo{
     position: absolute;
     z-index: 2;
+    width: 111px;
+    height: 111px;
 }
 .daco{
     position: absolute;
     z-index: 3;
+    width: 230px;
+    height: 212px;
 }
 .harry{
     position: absolute;
     z-index: 4;
+    width: 298px;
+    height: 273px;
 }
 .Hp{
     position: absolute;
     z-index: 5;
+    width: 179px;
+    height: max-content;
 }
