@@ -1,0 +1,47 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+
+#fondo{
+    
+}
+#poster{
+    position: relative;
+    
+    margin: 200px auto;
+    width: 800px;
+    height:600 ;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.poster1{
+    width: 800px;
+    height:200PX ;
+    background-color: #0711D9;
+    z-index: 0;
+    position: absolute;
+}
+.castillo{
+    position: absolute;
+    z-index: 1;
+}
+.simbolo{
+    position: absolute;
+    z-index: 2;
+}
+.daco{
+    position: absolute;
+    z-index: 3;
+}
+.harry{
+    position: absolute;
+    z-index: 4;
+}
+.Hp{
+    position: absolute;
+    z-index: 5;
+}
