@@ -22,6 +22,8 @@ body{
     position: absolute;
     left: 0;
     z-index: 0;
+    /* animation: castle 3s 0s; */
+
 }
 .poster2
 {
@@ -32,34 +34,135 @@ body{
     bottom: 0px;
     right: 0; 
     z-index: 0;
+    /* animation: castle 3s 0s; */
+
 }.castillo{
     
     position: absolute;
     left: 0;
     top: 100px;
     z-index: 1;
+    /* animation: castle 3s 0s; */
+    
+
 }
+@keyframes castle {
+    from{
+        transform: rotate(360deg) scale(0.5); 
+    }
+    to {
+        transform:none;
+    }
+ }
 .simbolo{
     position: absolute;
     left: 257px;
     top: 30px;
     z-index: 2;
+    /* animation: 
+    rotars 3s  0s ; */
+    
 }
+
+      
+@keyframes rotars {
+    from{
+        transform: rotate(360deg) scale(0.5); 
+    }
+    to {
+        transform:none;
+    }
+ }
 .harry{
     position: absolute;
 bottom: 0px;
 right: 0px;
 z-index: 3;
+/* animation: 
+    mover 3s linear 1 0s,
+    rotar 3s  linear 1 0s ; */
+/* animation-composition: replace; */
+    
 }
+@keyframes mover {
+    from{
+        right: 500px;
+        transform: translateX(400px)
+    }
+        to {
+          
+          right: 0px;
+        }
+}
+      
+@keyframes rotar {
+    from{
+        transform: rotate(360deg) scale(0.5);
+    }
+    to {
+       
+    }
+ }
+
 .daco{
+    
     position: absolute;
 bottom: 0px;
 left:  0px;
 z-index: 4;
+/* animation: 
+    moverd 3s linear 1 0s,
+    rotard 3s  linear  1 0s ;
+animation-composition: replace; */
 }
+@keyframes moverd {
+    from{
+        left: 500px;
+        transform: translateX(280px)
+    }
+        to {
+
+          left: 0px;
+        }
+}
+      
+@keyframes rotard {
+    from{
+        transform: rotate(350deg) scale(0.5);
+    }
+    to {
+        
+    }
+ }
+
 .Hp{
     position: absolute;
     bottom: 0px;
     left:  190px;
     z-index: 5;
+    animation: /* escale 3s  1 0s,
+    escale2 3s  1 0s */;
+
 }
+@keyframes escale {
+    from{
+        
+        
+        bottom: 100px;
+        transform: translateY(50px)
+    }
+        to {
+          
+          bottom: 0px;
+
+        }
+}
+      
+@keyframes escale2 {
+    from{
+        transform: rotate(360deg) scale(0.5);
+    }
+    to {
+       transform: none
+    }
+ }
