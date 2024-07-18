@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#boxcolores{
+    display: flex;
+    padding: 70px 0px ;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#boxcolores select {
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+#boxcolores button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#10cfcf;
+    border: none;
+    color: white;
+}
+main{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    min-height: 500px;
+    max-width: 1400px;
+    margin: 30px auto 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+
+}
+.bolita{
+   margin: 2px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(74, 122, 164);
+    border: 2px solid black;
+
+}
