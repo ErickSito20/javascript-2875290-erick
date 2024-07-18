@@ -81,7 +81,7 @@ z-index: 3;
 /* animation: 
     mover 3s linear 1 0s,
     rotar 3s  linear 1 0s ; */
-/* animation-composition: replace; */
+ animation-composition: replace; 
     
 }
 @keyframes mover {
@@ -112,8 +112,8 @@ left:  0px;
 z-index: 4;
 /* animation: 
     moverd 3s linear 1 0s,
-    rotard 3s  linear  1 0s ;
-animation-composition: replace; */
+    rotard 3s  linear  1 0s ;*/
+animation-composition: replace; 
 }
 @keyframes moverd {
     from{
@@ -140,8 +140,8 @@ animation-composition: replace; */
     bottom: 0px;
     left:  190px;
     z-index: 5;
-    animation: /* escale 3s  1 0s,
-    escale2 3s  1 0s */;
+    /*animation:  escale 3s  1 0s,
+    escale2 3s  1 0s ;*/
 
 }
 @keyframes escale {
@@ -166,3 +166,16 @@ animation-composition: replace; */
        transform: none
     }
  }
+ .boton{
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(170, 106, 45);
+    color: #ffffff;
+ }
+.boton:hover{
+    background-color: rgb(56, 99, 28);
+    color: #ffffff;
+    transform: scale(1.5);
+}
