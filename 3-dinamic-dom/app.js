@@ -16,7 +16,7 @@ function crear (){
     ball.classList.add('bolita');
     ball.style.backgroundColor = listaColores.value;
     ball.innerText = n++;
-/*     ball.innerHTML = equis; */
+
     ball.appendChild(equis)
 
     main.appendChild(ball);
