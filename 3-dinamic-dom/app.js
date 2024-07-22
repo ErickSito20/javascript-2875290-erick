@@ -1,12 +1,41 @@
-const boton = document.querySelector('#btncrear')
-const listacolores = document.getElementById('listacolores')
-const main = document.getElementById('main')
+const listaColores = document.querySelector('#listacolores');
+const btnCrear = document.querySelector('#btncrear');
+const main = document.querySelector('#main');
+const btnBorrar = document.querySelector('#btnBorrar');
+let n = 1;
 
-function color (){
- const ball = document.createElement('div')
- ball.classList.add('bolita')
- main.appendChild(ball)
- ball.style.backgroundColor= listacolores.value
+
+function crear (){
+    
+    const ball = document.createElement('div');
+    const equis = document.createElement('button');
+
+    equis.innerText = 'x';
+    equis.classList.add('equis');
+
+    ball.classList.add('bolita');
+    ball.style.backgroundColor = listaColores.value;
+    ball.innerText = n++;
+/*     ball.innerHTML = equis; */
+    ball.appendChild(equis)
+
+    main.appendChild(ball);
 }
-boton.addEventListener('click', color)
 
+function borrarPantalla (){
+    main.innerHTML = '';
+    n=1;
+}
+function borrarElemento (e){ 
+    if(e.target.innerText == 'x'){
+        main.removeChild(e.target.parentElement);
+    }
+}
+function completarTarea (e){ 
+    e.target.style.textDecoration = 'line-through';
+}
+
+btnCrear.addEventListener('click',crear)
+btnBorrar.addEventListener('click',borrarPantalla)
+main.addEventListener('click',borrarElemento)
+main.addEventListener('click',completarTarea)
