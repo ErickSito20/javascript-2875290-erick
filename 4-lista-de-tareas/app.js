@@ -8,8 +8,10 @@ const input= document.querySelector('#Lb')
 
 
 const cuadrouno = document.querySelector('#cuadros')
+const container=  document.querySelector('.cero')
 let n = 1 
 function crear(){
+    
     const libro = document.createElement('div')
     libro.innerText = input.value
     libro.classList.add('libros')
@@ -28,9 +30,14 @@ const check1 =  document.createElement('button')
     check1.classList.add('otros')
     divbotones.appendChild(check1)
     
+
+    
 }
-function completarTarea (e){ 
-    e.target.style.textDecoration = 'line-through';
+
+function borrarElemento (e){ 
+    if(e.target.innerText == 'borrar'){
+        container.removeChild(e.target.parentElement);
+    }
 }
 
 
