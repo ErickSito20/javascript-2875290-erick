@@ -37,7 +37,7 @@ function crear(){
 
 function borrarElemento (e){ 
     if(e.target.innerText == 'borrar'){
-        console.log(e.target.parentElement.parentElement)
+    
         container.removeChild(e.target.parentElement.parentElement);
     }
 
