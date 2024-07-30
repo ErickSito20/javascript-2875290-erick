@@ -1,6 +1,17 @@
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
     
+}
+body{
+    background-image: url(/5-estructura-de-datos/pikaso_texttoimage_fondo-para-pagina-web-de-musica.jpeg);
+
+background-size: cover;
+}
+body h3{
+    text-transform: lowercase;
+}
+body h3:first-letter{
+    text-transform: uppercase;
 }
 .container{
     max-width: max-content;
@@ -15,11 +26,20 @@ margin-top: 30px;
     text-align: center;
     
 }
+h2{
+    font-size: 50px;
+    font-family: "Playwrite AT", cursive;
+}
+
+.title1{
+    background-color: #4b477b;
+}
 .tarjeta{
-    
+    justify-content: space-between;
+    align-items: center;
     display: flex;
-    width: 550px;
-    height: 350px;
+    width: 650px;
+    height: 400px;
     background-color: #000000;
     border-radius: 25px ;
     
@@ -29,8 +49,7 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100px;
-background: linear-gradient(#000000,#4b477b);
+height: 150px;
 color: aliceblue;
 font-size: x-large;
 }
@@ -38,19 +57,23 @@ font-size: x-large;
 #uno{
     display: flex;
     border: dotted 3px  white;
-    margin: 40px ;
+    margin: 60px ;
     justify-content: center;
     align-items: center;
 }
 img{
 width: 200px;
 height: 200px;
-    
+   
     margin: 40px 30px 40px 30px;
 
 }
+#uno:hover{
+    transform: scale(1.3);
+    cursor: pointer;}
+
 #dos{
- 
+ padding-right: 40px;
     margin: 20px 20px 20px 0px;
  
 }
