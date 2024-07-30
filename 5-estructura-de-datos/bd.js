@@ -137,7 +137,7 @@ let peliculas = [
     {
         id:17,
         nombre:'Ela me Falou Que Quer Rave',
-        artista:['MC Levin','DJ Nikolas Alves Exclusive', 'DJ Kaioken','DJ Gege',]
+        artista:['MC Levin','DJ Nikolas Alves Exclusive', 'DJ Kaioken','DJ Gege',],
         year:2021,
         genero:'funk',
         imagen:'https://lh3.googleusercontent.com/jCkUAhBrAQuBgQRoG9aKTf4m5SSSQTrJaptBMD9kvEg-QmUKVluJknEunMijDHswHsRcrDXCzNNKlQ9I=w544-h544-l90-rj'
@@ -177,7 +177,7 @@ let peliculas = [
     {
         id:22,
         nombre:'Essas Malandras',
-        artista:'Dj Galinha'
+        artista:'Dj Galinha',
         year:2018,
         genero:'funk',
         imagen:'https://lh3.googleusercontent.com/4fmzavH5x6DLD7V6be39iXy-BmoLu1B9v0ftpe6x3ePbH7VSyrvg2Bwc9AkZhEjOFXiSk5IHBM6BBbUT=w544-h544-l90-rj'
