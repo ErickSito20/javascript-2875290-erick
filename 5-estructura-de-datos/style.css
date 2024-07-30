@@ -46,14 +46,18 @@ h2{
 }
 header{
 text-align: center;
-display: flex;
+display: block;
 justify-content: center;
 align-items: center;
 height: 150px;
 color: aliceblue;
 font-size: x-large;
 }
-
+p{
+    font-size: 30px;
+    margin: auto;
+    align-items: center;
+}
 #uno{
     display: flex;
     border: dotted 3px  white;
